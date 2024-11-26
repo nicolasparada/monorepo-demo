@@ -16,7 +16,7 @@ func main() {
 
 func run() error {
 	svc := &server.Service{}
-	usr := svc.User("1")
+	usr := svc.User("1", "John Doe")
 	fmt.Println(usr)
 	return nil
 }
